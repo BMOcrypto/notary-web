@@ -441,7 +441,7 @@ mark,
 
 .list-unstyled {
   padding-left: 0;
-  list-style: none;
+  list-style: disc;
 }
 
 .list-inline {
@@ -3899,7 +3899,7 @@ input[type=button].btn-block {
   text-decoration: none;
 }
 .nav-link.disabled {
-  color: #6c757d;
+  color: #eee2df;
   pointer-events: none;
   cursor: default;
 }
@@ -4777,7 +4777,7 @@ a.badge-light:focus, a.badge-light.focus {
 }
 a.badge-dark:hover, a.badge-dark:focus {
   color: #fff;
-  background-color: #1d2124;
+  background-color: #eee2df;
 }
 a.badge-dark:focus, a.badge-dark.focus {
   outline: 0;
@@ -5073,7 +5073,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-left-width: 0.125rem;
 }
 
-@media (min-width: 576px) {
+  @media (min-width: 576px) {
   .list-group-horizontal-sm {
     flex-direction: row;
   }
@@ -5550,7 +5550,7 @@ a.close.disabled {
     max-width: 800px;
   }
 }
-@media (min-width: 1200px) {
+ (min-width: 1200px) {
   .modal-xl {
     max-width: 1140px;
   }
@@ -6067,7 +6067,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+  background-color: #eee2df !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10040,7 +10040,7 @@ h3 {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #eee2df;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -10067,12 +10067,12 @@ h3 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #1abc9c;
+      color: #fff;
+    background: #eee2df;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #eee2df;
   }
 
   #mainNav.navbar-shrink {
